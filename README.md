@@ -251,7 +251,7 @@ Each client has same number of samples, and same distribution for all class samp
 
 ### Custom Dataset Support
 
-We also provide a simple way to add your own dataset to the framework. Look into [docs](https://federa.readthedocs.io/en/latest/tutorials/dataset.html#adding-support-for-new-datasets) for more details.
+We also provide a simple way to add your own dataset to the framework. The models utilized in this framework  were trained using a restricted subset of the MedMNIST v2 benchmark dataset, which is publicly accessible [link](https://medmnist.com/). The dataset consists of medical images with dimensions of 28x28 pixels. The selection of this smaller subset was employed for both side server and client.  Look into [docs](https://federa.readthedocs.io/en/latest/tutorials/dataset.html#adding-support-for-new-datasets) for more details.
 
 ## Models Supported
 
